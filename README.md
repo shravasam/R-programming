@@ -52,3 +52,16 @@ Deleting Variables
 Variables can be deleted by using the rm() function. Below we delete the variable var.3. On
 printing the value of the variable error is thrown.
 
+R-Operators
+
+Types of Operators
+
+Arithmetic Operators:
+
+Relational Operators:The result of comparison is a Boolean value.
+
+Logical Operators: It is applicable only to vectors of type logical, numeric or complex.                      All numbers greater than 1 are considered as logical value TRUE.The                        result of comparison is a Boolean value.
+
+Assignment Operators-left assignment(<-,=, <<-), right assignment(->,->>)
+
+Miscellaneous Operators:These operators are used to for specific purpose and not general                            mathematical or logical computation.(:, %in%,%*%)
