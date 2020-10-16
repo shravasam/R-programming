@@ -11,6 +11,7 @@ cat ("var.1 is ", var.1 ,"\n")
 cat ("var.2 is ", var.2 ,"\n")
 cat ("var.3 is ", var.3 ,"\n")
 
+
 # Note: The vector c(TRUE,1) has a mix of logical and numeric class. So logical class is coerced
 # to numeric class making TRUE as 1."
 
@@ -39,3 +40,4 @@ print(var.3)
 #To remove all the variales All the variables can be deleted by using the rm() and ls() function together.
 rm(list=ls())
 print(ls())
+
