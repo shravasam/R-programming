@@ -65,3 +65,29 @@ Logical Operators: It is applicable only to vectors of type logical, numeric or 
 Assignment Operators-left assignment(<-,=, <<-), right assignment(->,->>)
 
 Miscellaneous Operators:These operators are used to for specific purpose and not general                            mathematical or logical computation.(:, %in%,%*%)
+
+R-Decision Making:
+An if statement can be followed by an optional else if...else statement, which is very useful
+to test various conditions using single if...else if statement.
+When using if, else if, else statements there are few points to keep in mind.
+1. An if can have zero or one else and it must come after any else if's.
+2. An if can have zero to many else if's and they must come before the else.
+3. Once an else if succeeds, none of the remaining else if's or else's will be tested.
+R-Switches:
+A switch statement allows a variable to be tested for equality against a list of values. 
+Each value is called a case, and the variable being switched on is checked for each case.
+
+R-Loops:
+R programming language provides the following kinds of loop to handle looping requirements.
+Loop Type, Description
+repeat loop : Executes a sequence of statements multiple times and abbreviates the
+code that manages the loop variable.
+while loop : Repeats a statement or group of statements while a given condition is
+true. It tests the condition before executing the loop body.
+
+repeat {
+commands
+if(condition){
+break
+}
+}
