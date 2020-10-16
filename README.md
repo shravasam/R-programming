@@ -91,3 +91,13 @@ if(condition){
 break
 }
 }
+
+for loops :A for loop is a repetition control structure that allows you to efficiently write a loop that needs to execute a specific number of times.
+
+LOOP CONTROL STATEMENTS IN R :
+1.BREAK :A for loop is a repetition control structure that allows you to efficiently write a loop that needs to execute a specific number of times.
+
+2.NEXT : The next statement in R programming language is useful when we want to skip
+the current iteration of a loop without terminating it. On encountering next, the
+R parser skips further evaluation and starts next iteration of the loop.
+
