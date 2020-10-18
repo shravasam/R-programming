@@ -113,3 +113,47 @@ few are Built-in Function in R ( mean, sum, sequance)
 
 User-defined Function:
 Once created function then you can use as built in functions.
+
+STRINGS IN R
+Any value written within a pair of single quote or double quotes in R is treated as a string. Internally R stores every string within double quotes, even when you create them with single quote.
+Rules Applied in String Construction:
+    1.The quotes at the beginning and end of a string should be both double quotes or both single quote. They can not be mixed.
+    2.Double quotes can be inserted into a string starting and ending with single quote.
+    3.Single quote can be inserted into a string starting and ending with double quotes.
+    4.Double quotes can not be inserted into a string starting and ending with double quotes.
+    5.Single quote can not be inserted into a string starting and ending with single quote.
+    
+    STRING MANIPULATION
+    Concatenating Strings - paste() function
+Many strings in R are combined using the paste() function. It can take any number of
+arguments to be combined together.
+syntax: paste(..., sep = " ", collapse = NULL)
+
+Formatting numbers & strings - format() function
+Numbers and strings can be formatted to a specific style using format()function
+    syntax:
+    format(x, digits, nsmall,scientific,width,justify = c("left", "right", "centre", "none"))
+parameters used in..
+      1.x is the vector input.
+      2. digits is the total number of digits displayed.
+      3. nsmall is the minimum number of digits to the right of the decimal point.
+      4.scientific is set to TRUE to display scientific notation.
+      5.width indicates the minimum width to be displayed by padding blanks in the beginning.
+      6.justify is the display of the string to left, right or center.
+
+--Counting number of characters in a string - ncahr() function
+--This function counts the number of characters including spaces in a string.
+syntax : nchar(x)
+x:vector input
+
+
+Changing the case - toupper() & tolower() functions
+syntax: toupper(x)
+        tolower(x)
+        
+Extracting parts of a string - substring() function
+substring(x,first,last)
+--x is the character vector input.
+-- first is the position of the first character to be extracted.
+---last is the position of the last character to be extracted.
+
