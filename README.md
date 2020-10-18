@@ -101,3 +101,15 @@ LOOP CONTROL STATEMENTS IN R :
 the current iteration of a loop without terminating it. On encountering next, the
 R parser skips further evaluation and starts next iteration of the loop.
 
+Functions:
+
+An R function is created by using the "keyword" function. There are built in and user defined functions in R.
+Function Components:
+  1.Function Name
+  2.Arguments
+  3.Function Body
+  4.Return Value
+few are Built-in Function in R ( mean, sum, sequance)
+
+User-defined Function:
+Once created function then you can use as built in functions.
