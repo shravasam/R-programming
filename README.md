@@ -157,3 +157,14 @@ substring(x,first,last)
 -- first is the position of the first character to be extracted.
 ---last is the position of the last character to be extracted.
 
+
+VECTORS:
+    1.Vector Creation
+    2.Multiple Elements Vector
+    3.Using sequence (Seq.) operator
+    4.Using the c() function
+    5.Accessing Vector Elements
+    6.Vector Manipulation
+          A.Vector Arithmetic : Two vectors of same length can be added, subtracted,                  multiplied or divided giving the result as a vector output.
+    7.Vector Element Recycling :If we apply arithmetic operations to two vectors of                                         unequal length, then the elements of the shorter vector                                   are recycled to complete the operations.
+    8.Vector Element Sorting :Elements in a vector can be sorted using the sort()                                       function.
